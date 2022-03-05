@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-const bookmodel= require("../models/bookModel.js")
 const bookController= require("../controllers/bookController")
 
 router.get("/test-me", function (req, res) {
